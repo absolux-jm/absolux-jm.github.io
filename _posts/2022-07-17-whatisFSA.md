@@ -37,7 +37,7 @@ $$q_0$$는 돈을 지불하기 시작하는 상태이므로 initial state라 하
 이를 가중치를 둔 유향 그래프로 표시할 수 있으며, finite state automaton (이하 FSA)의 전신형은 수학적으로 표기될 뿐, 사실상 이와 다르지 않다.
 
 # FSA의 정의
-FSA $$\mathcal{A}$$는 $$A$$가 $$Q$$에 대해 action $$\varphi: Q \times A \rightarrow Q$$를 가지는 두 유한 집합과 action의 순서쌍 $$(Q, A, \varphi)$$이다.
+FSA $$\mathcal{A}$$는 두 유한 집합 $$A$$와 $$Q$$ 및 action $$\varphi: Q \times A \rightarrow Q$$의 순서쌍 $$(Q, A, \varphi)$$이다.
 $$Q$$의 원소는 state로, $$A$$는 automaton의 alphabet이라 칭하며 그 원소는 input이라 부른다.
 Action은 $$Q \times A$$의 모든 순서쌍 $$(q, a)$$에 대해 상태 $$q.a$$로 나타내며, 주로 $$qa$$라 쓴다.
 
