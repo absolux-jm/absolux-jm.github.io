@@ -47,8 +47,8 @@ FSA에서 word의 작용을 다음과 같이 재귀적으로 형식화할 수 �
 
 $$
 \begin{align}
-q1 &= q (q \in Q) \\
-q(wa) &= (qw)a (q \in Q, w \in A^{\ast}, a \in A).
+q1 &= q \quad (q \in Q) \\
+q(wa) &= (qw)a \quad (q \in Q, w \in A^{\ast}, a \in A).
 \end{align}
 $$
 
